@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf3ae35-507d-4bd4-a6ba-e4d5a242e857" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/text_to_morse_code_converter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="bbf3ae35-507d-4bd4-a6ba-e4d5a242e857" name="Changes" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,67 +26,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alicecaperdoni-debug"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/alicecaperdoni-debug/text_to_morse_code_converter.git",
+    "accountId": "eed56c05-4084-477a-96ee-4b60e2d10266"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000290722045302" />
-      <entry key="MS500" value="1.1237963791269592" />
-      <entry key="S2" value="1.6540940953670773" />
-      <entry key="S5" value="2.6183946195184165" />
-      <entry key="S10" value="4.925242375058135" />
-      <entry key="S30" value="14.048277491220997" />
-      <entry key="S60" value="24.08429990868106" />
-      <entry key="M2" value="39.08356972025993" />
-      <entry key="M5" value="65.59436581922665" />
-      <entry key="M10" value="85.31516197060157" />
-      <entry key="M15" value="94.75199255743131" />
-      <entry key="M30" value="106.39676132417256" />
-      <entry key="H1" value="113.27091186374288" />
-      <entry key="H2" value="117.02023528831639" />
-      <entry key="H4" value="118.98018622841721" />
-      <entry key="D1" value="120.6591075355392" />
-      <entry key="W1" value="120.95119549882006" />
+      <entry key="MS100" value="1.0021078676494226" />
+      <entry key="MS500" value="1.29158749875197" />
+      <entry key="S2" value="1.7771819350655318" />
+      <entry key="S5" value="2.667199634308421" />
+      <entry key="S10" value="4.301995193858524" />
+      <entry key="S30" value="7.967583050527683" />
+      <entry key="S60" value="11.896890506415293" />
+      <entry key="M2" value="17.615684327232522" />
+      <entry key="M5" value="32.50143912797503" />
+      <entry key="M10" value="62.2288858194982" />
+      <entry key="M15" value="86.7555944128983" />
+      <entry key="M30" value="128.99413478207217" />
+      <entry key="H1" value="161.02202285550518" />
+      <entry key="H2" value="180.9148677118575" />
+      <entry key="H4" value="192.02554949259155" />
+      <entry key="D1" value="201.94125020186624" />
+      <entry key="W1" value="203.70430869350545" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS500" value="1.9608808208779874E-146" />
+      <entry key="S2" value="3.742077689666697E-37" />
+      <entry key="S5" value="2.6868605070333106E-15" />
+      <entry key="S10" value="5.183493519850597E-8" />
+      <entry key="S30" value="0.0037285847691014983" />
+      <entry key="S60" value="0.06130047125903578" />
+      <entry key="M2" value="0.27232541655701115" />
+      <entry key="M5" value="1.0084243462216536" />
+      <entry key="M10" value="1.8977210104790356" />
+      <entry key="M15" value="2.40441245656215" />
+      <entry key="M30" value="3.083708302189745" />
+      <entry key="H1" value="3.5073349820533175" />
+      <entry key="H2" value="3.7443351575634147" />
+      <entry key="H4" value="3.869740285116127" />
+      <entry key="D1" value="3.9779446104847924" />
+      <entry key="W1" value="3.9968406597869848" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8526600257711692" />
-      <entry key="MS500" value="1.088862226645198" />
-      <entry key="S2" value="1.640340939320246" />
-      <entry key="S5" value="2.605806550705941" />
-      <entry key="S10" value="4.894794723334039" />
-      <entry key="S30" value="13.96433221988397" />
-      <entry key="S60" value="23.99639805088541" />
-      <entry key="M2" value="39.007062626544915" />
-      <entry key="M5" value="65.53933363454256" />
-      <entry key="M10" value="85.27809397642466" />
-      <entry key="M15" value="94.72420658381783" />
-      <entry key="M30" value="106.38097154418182" />
-      <entry key="H1" value="113.26245819260679" />
-      <entry key="H2" value="117.01585632521682" />
-      <entry key="H4" value="118.97795702597288" />
-      <entry key="D1" value="120.65873033485325" />
-      <entry key="W1" value="120.9511414722199" />
+      <entry key="MS100" value="0.003014802176287098" />
+      <entry key="MS500" value="0.525201492147276" />
+      <entry key="S2" value="1.470688749680182" />
+      <entry key="S5" value="2.507996293457621" />
+      <entry key="S10" value="4.1675119500797235" />
+      <entry key="S30" value="7.8748015232253605" />
+      <entry key="S60" value="11.876969691730341" />
+      <entry key="M2" value="17.812096691720768" />
+      <entry key="M5" value="33.443699174363495" />
+      <entry key="M10" value="64.06944764522044" />
+      <entry key="M15" value="89.11075023489612" />
+      <entry key="M30" value="132.04439523540188" />
+      <entry key="H1" value="164.50946406060487" />
+      <entry key="H2" value="184.64829542473444" />
+      <entry key="H4" value="195.88957092951182" />
+      <entry key="D1" value="205.9182025105146" />
+      <entry key="W1" value="207.70100660479403" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -106,6 +113,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -134,9 +142,33 @@
       <option name="presentableId" value="Default" />
       <updated>1791474663279</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1791476105322</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791476105323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>

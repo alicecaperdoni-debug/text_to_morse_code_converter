@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf3ae35-507d-4bd4-a6ba-e4d5a242e857" name="Changes" comment="First Commit">
+    <list default="true" id="bbf3ae35-507d-4bd4-a6ba-e4d5a242e857" name="Changes" comment="Converter is working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -26,85 +26,85 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alicecaperdoni-debug"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alicecaperdoni-debug&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/alicecaperdoni-debug/text_to_morse_code_converter.git",
-    "accountId": "eed56c05-4084-477a-96ee-4b60e2d10266"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alicecaperdoni-debug/text_to_morse_code_converter.git&quot;,
+    &quot;accountId&quot;: &quot;eed56c05-4084-477a-96ee-4b60e2d10266&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0021078676494226" />
-      <entry key="MS500" value="1.29158749875197" />
-      <entry key="S2" value="1.7771819350655318" />
-      <entry key="S5" value="2.667199634308421" />
-      <entry key="S10" value="4.301995193858524" />
-      <entry key="S30" value="7.967583050527683" />
-      <entry key="S60" value="11.896890506415293" />
-      <entry key="M2" value="17.615684327232522" />
-      <entry key="M5" value="32.50143912797503" />
-      <entry key="M10" value="62.2288858194982" />
-      <entry key="M15" value="86.7555944128983" />
-      <entry key="M30" value="128.99413478207217" />
-      <entry key="H1" value="161.02202285550518" />
-      <entry key="H2" value="180.9148677118575" />
-      <entry key="H4" value="192.02554949259155" />
-      <entry key="D1" value="201.94125020186624" />
-      <entry key="W1" value="203.70430869350545" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000338" />
+      <entry key="S5" value="1.0000057841845889" />
+      <entry key="S10" value="1.0038830131359127" />
+      <entry key="S30" value="1.3468004492979175" />
+      <entry key="S60" value="2.4324927092748423" />
+      <entry key="M2" value="5.588912717570294" />
+      <entry key="M5" value="19.241800695829923" />
+      <entry key="M10" value="47.238149300059405" />
+      <entry key="M15" value="75.64934283022923" />
+      <entry key="M30" value="145.96763033403974" />
+      <entry key="H1" value="223.93274994899144" />
+      <entry key="H2" value="285.4332867148719" />
+      <entry key="H4" value="324.62564300490317" />
+      <entry key="D1" value="362.7128170471321" />
+      <entry key="W1" value="369.80159622217764" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.9608808208779874E-146" />
-      <entry key="S2" value="3.742077689666697E-37" />
-      <entry key="S5" value="2.6868605070333106E-15" />
-      <entry key="S10" value="5.183493519850597E-8" />
-      <entry key="S30" value="0.0037285847691014983" />
-      <entry key="S60" value="0.06130047125903578" />
-      <entry key="M2" value="0.27232541655701115" />
-      <entry key="M5" value="1.0084243462216536" />
-      <entry key="M10" value="1.8977210104790356" />
-      <entry key="M15" value="2.40441245656215" />
-      <entry key="M30" value="3.083708302189745" />
-      <entry key="H1" value="3.5073349820533175" />
-      <entry key="H2" value="3.7443351575634147" />
-      <entry key="H4" value="3.869740285116127" />
-      <entry key="D1" value="3.9779446104847924" />
-      <entry key="W1" value="3.9968406597869848" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="5.681927527703312E-131" />
+      <entry key="S10" value="7.537856145949796E-66" />
+      <entry key="S30" value="1.9607216862157336E-22" />
+      <entry key="S60" value="1.4003919517557851E-11" />
+      <entry key="M2" value="3.78230055021989E-6" />
+      <entry key="M5" value="0.008618531080785296" />
+      <entry key="M10" value="0.16386211272191029" />
+      <entry key="M15" value="0.4843512478956445" />
+      <entry key="M30" value="1.5155377446424063" />
+      <entry key="H1" value="2.735761341774001" />
+      <entry key="H2" value="3.6930020633032563" />
+      <entry key="H4" value="4.295535920314552" />
+      <entry key="D1" value="4.874794980905109" />
+      <entry key="W1" value="4.981912581625434" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.003014802176287098" />
-      <entry key="MS500" value="0.525201492147276" />
-      <entry key="S2" value="1.470688749680182" />
-      <entry key="S5" value="2.507996293457621" />
-      <entry key="S10" value="4.1675119500797235" />
-      <entry key="S30" value="7.8748015232253605" />
-      <entry key="S60" value="11.876969691730341" />
-      <entry key="M2" value="17.812096691720768" />
-      <entry key="M5" value="33.443699174363495" />
-      <entry key="M10" value="64.06944764522044" />
-      <entry key="M15" value="89.11075023489612" />
-      <entry key="M30" value="132.04439523540188" />
-      <entry key="H1" value="164.50946406060487" />
-      <entry key="H2" value="184.64829542473444" />
-      <entry key="H4" value="195.88957092951182" />
-      <entry key="D1" value="205.9182025105146" />
-      <entry key="W1" value="207.70100660479403" />
+      <entry key="MS100" value="1.9771167597986414E-64" />
+      <entry key="MS500" value="1.8163789637791264E-13" />
+      <entry key="S2" value="6.528322731654492E-4" />
+      <entry key="S5" value="0.05320580765179476" />
+      <entry key="S10" value="0.23419752844777236" />
+      <entry key="S30" value="0.9503986306058736" />
+      <entry key="S60" value="2.190681109448241" />
+      <entry key="M2" value="5.422296216377878" />
+      <entry key="M5" value="19.135626782468684" />
+      <entry key="M10" value="47.313980484078755" />
+      <entry key="M15" value="76.05657129361666" />
+      <entry key="M30" value="147.42352294077637" />
+      <entry key="H1" value="226.6278467981738" />
+      <entry key="H2" value="289.1018714647426" />
+      <entry key="H4" value="328.90770019508795" />
+      <entry key="D1" value="367.58516304319033" />
+      <entry key="W1" value="374.78315360793806" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3KQ0oicFgRmVrS9lxYpJrSQXynX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -116,6 +116,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
@@ -150,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791476105323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Converter is working">
+      <option name="closed" value="true" />
+      <created>1791479089105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791479089105</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +178,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Converter is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converter is working" />
   </component>
 </project>

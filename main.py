@@ -7,6 +7,24 @@ MORSE_LETTERS = ["._", "_...", "_._.", "_..", ".", ".._.", "__.", "....", "..", 
 NUMBERS = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 MORSE_NUMBERS = ["_____", ".____", "..___", "...__", "...._", ".....", "_....", "__...", "___..", "____."]
 
+def convert(text):
+    morse = []
+    for character in text:
+        if character in LETTERS:
+            character = MORSE_LETTERS[LETTERS.index(character)]
+            morse.append(character)
+        if character in NUMBERS:
+            character = MORSE_NUMBERS[NUMBERS.index(character)]
+            morse.append(character)
+        if " " in text:
+            morse.append(" ")
+    return "".join(morse)
+
+def keep_converting():
+    original_text = list(input("Enter your text (only letters and numbers):").upper())
+
+    morse_text = convert(original_text)
+    print(morse_text)
 
 # window = Tk()
 # window.title("Alice's Text To Morse Code Converter")
@@ -17,29 +35,18 @@ MORSE_NUMBERS = ["_____", ".____", "..___", "...__", "...._", ".....", "_....", 
 # welcome_label.config(font=("Palatino", 20))
 # welcome_label.grid(column=1, row=1)
 
-text = list(input("Enter your text:").upper())
+new_conversion = True
+keep_converting()
 
-#TODO-2 Se ci sono errori spiega errore e fai ripartira (prova con caratteri non considerati)
-
-#TODO-1 Fai funzione per la traduzione
-
-morse = []
-for character in text:
-    if character in LETTERS:
-        character = MORSE_LETTERS[LETTERS.index(character)]
-        morse.append(character)
-    if character in NUMBERS:
-        character = MORSE_NUMBERS[NUMBERS.index(character)]
-        morse.append(character)
-    if " " in text:
-        morse.append(" ")
+while new_conversion:
+    new_translation = input("Do you want to translate again? (y/n)").lower()
+    if new_translation == "y":
+        keep_converting()
+    else:
+        print("Goodbye!")
+        break
 
 #TODO-3 Chiedi se l'utente vuole tradurre altro (sì:riparti, no:ciao - Tkinter -> chiudi finestra)
-
-print("".join(morse))
-
-#RICORDA anche gli spazi sono caratteri, quelli non vanno tradotti
-
 
 
 

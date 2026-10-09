@@ -9,47 +9,46 @@ MORSE_NUMBERS = ["_____", ".____", "..___", "...__", "...._", ".....", "_....", 
 
 def convert():
     morse = []
-    text = list(input("Enter your text (only letters and numbers):").upper())
-    for character in text:
+    morse_entry.delete(0, END)
+    t = list(text_entry.get().upper())
+
+    for character in t:
         if character in LETTERS:
             character = MORSE_LETTERS[LETTERS.index(character)]
             morse.append(character)
         if character in NUMBERS:
             character = MORSE_NUMBERS[NUMBERS.index(character)]
             morse.append(character)
-        if " " in text:
+        if " " in t:
             morse.append(" ")
     morse_text = "".join(morse)
-    return morse_text
+    morse_entry.insert(END, morse_text)
 
-# window = Tk()
-# window.title("Alice's Text To Morse Code Converter")
-# window.minsize(500, 400)
-#
-# #TODO-4 Fare estetica con Tkinter
-# welcome_label = Label(text="Welcome to the Text To Morse Converter!")
-# welcome_label.config(font=("Palatino", 20))
-# welcome_label.grid(column=1, row=1)
+window = Tk()
+window.title("Alice's Text To Morse Code Converter")
+window.minsize(500, 400)
 
-new_conversion = True
-print(convert())
+#Labels
+welcome_label = Label(text="Welcome to the\nText To Morse Converter!")
+welcome_label.config(font=("Palatino", 20), pady=30)
+welcome_label.pack()
 
-while new_conversion:
-    new_translation = input("Do you want to translate again? (y/n)").lower()
-    if new_translation == "y":
-        print(convert())
-    else:
-        print("Goodbye!")
-        break
+convert_label = Label(text="Enter your text (only letters and numbers):")
+convert_label.config(font=("Palatino", 13), pady=5)
+convert_label.pack()
 
+#Entry1
+text_entry = Entry(width=40)
+text_entry.focus()
+text_entry.pack()
 
+#Button
+button = Button(text="Convert", command=convert)
+button.config(pady=10)
+button.pack()
 
+#Entry2
+morse_entry = Entry(width=40)
+morse_entry.pack()
 
-
-
-
-
-
-
-
-# window.mainloop()
+window.mainloop()
